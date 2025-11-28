@@ -52,3 +52,49 @@
         .blockquote-footer {
             font-family: 'Handlee', cursive;
         }
+
+/* Main content spacing */
+        .main-content {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+/* Sticky footer layout */
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-content {
+            flex: 1 0 auto;
+        }
+
+        .site-footer {
+            margin-top: auto;
+        }
+
+/* Footer styles */
+        .site-footer {
+            background-color: #6F4E37;
+            color: #FFEBD4;
+        }
+
+        .site-footer a {
+            color: #FFEBD4;
+            text-decoration: none;
+        }
+
+        .site-footer a:hover {
+            color: #FFEBD4;
+            opacity: 0.85;
+        }
+
+        .site-footer .social-links i {
+            font-size: 1.25rem;
+            line-height: 1;
+        }
