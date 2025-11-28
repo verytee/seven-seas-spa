@@ -60,7 +60,12 @@
         }
 
 /* Sticky footer layout */
-        html, body {
+        html {
+            height: 100%;
+            scroll-padding-top: 70px;
+        }
+        
+        body {
             height: 100%;
         }
 
