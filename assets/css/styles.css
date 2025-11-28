@@ -1,10 +1,36 @@
 /* Navigation styles */
-.navbar-brand,
-.nav-link {
-    color: #3b2f2f !important;
-    font-family: Arial, sans-serif;
-}
+        .navbar-custom {
+            color: #3B2F2F;
+        }
 
-.nav-link.active {
-    font-weight: bold;
-}
+        .navbar-custom .nav-link {
+            color: #3B2F2F;
+        }
+
+        .navbar-custom .nav-link.active {
+            font-weight: bold;
+        }
+
+/* Hero section styles */
+
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/hero.png') no-repeat center center;
+            background-size: cover;
+            color: #FFEBD4;
+            padding: 100px 0;
+        }
+
+        .hero-section h1 {
+            font-family: 'Handlee', cursive;
+        }
+
+        .btn {
+            color: #3B2F2F;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            padding: 0;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
