@@ -54,6 +54,11 @@
             margin-bottom: 2rem;
         }
 
+        /* Remove bottom margin on contact hero so background meets footer */
+        .main-content.contact-hero {
+            margin-bottom: 0;
+        }
+
 /* Sticky footer layout */
         html {
             height: 100%;
@@ -102,7 +107,7 @@
 /* Form styles */
         .btn-submit {
             background-color: #080707;
-            color: #3B2F2F;
+            color: #FFFFFF;
             border: 2px solid #3B2F2F;
             border-radius: 50px;
             padding: 0.5rem 2rem;
@@ -112,4 +117,24 @@
             background-color: #f8f9fa;
             border-color: #3B2F2F;
             color: #3B2F2F;
+        }
+
+/* Contact page and thank you pagehero background */
+        .contact-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/hero.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            min-height: calc(100vh - 200px);
+            display: flex;
+            align-items: center;
+                padding: 4rem 0 2rem; /* ensure background covers space to footer */
+                overflow: hidden; /* prevent margin collapse from inner elements */
+        }
+
+        .contact-box {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
