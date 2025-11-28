@@ -36,3 +36,14 @@
             align-items: center;
             justify-content: center;
         }
+
+/* Card styles */
+        .card {
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+/* Section heading styles */
+        section h2 {
+            font-family: 'Handlee', cursive;
+        }
