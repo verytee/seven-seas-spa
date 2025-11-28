@@ -1,0 +1,10 @@
+/* Navigation styles */
+.navbar-brand,
+.nav-link {
+    color: #3b2f2f !important;
+    font-family: Arial, sans-serif;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
